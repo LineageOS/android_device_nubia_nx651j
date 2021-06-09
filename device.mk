@@ -14,3 +14,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Inherit from sm7250-common
 $(call inherit-product, device/nubia/sm7250-common/lito.mk)
+
+# Overelays
+PRODUCT_PACKAGES += \
+    RedwoodCNSettingsProviderOverlay \
+    RedwoodCNWifiOverlay \
+    RedwoodENSettingsProviderOverlay \
+    RedwoodENWifiOverlay
