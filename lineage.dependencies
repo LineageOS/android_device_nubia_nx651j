@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_device_nubia_sm7250-common",
+    "target_path": "device/nubia/sm7250-common"
+  }
+]
