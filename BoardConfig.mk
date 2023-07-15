@@ -13,4 +13,4 @@ DEVICE_PATH := device/nubia/nx651j
 TARGET_OTA_ASSERT_DEVICE := nx651j,NX651J
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_nx651j_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineageos_nx651j_defconfig
